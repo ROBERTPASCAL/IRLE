@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html manifest="manifest.appcache" lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Commande IRLE</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- style-CSS-perso -->
+    <style type="text/css">
+      span.code {
+        color:#337ab7;
+      }
+      code {
+        margin-right:1em;
+      }
+      .panel-group {
+        padding:1em 1em 0em;
+      }
+      .panel-default > .panel-heading {
+        background: #f0f0f0; /* Old browsers */ /* FF3.6+ */ /* Chrome,Safari4+ */ /* Chrome10+,Safari5.1+ */ /* Opera 11.10+ */ /* IE10+ */
+        background: -webkit-linear-gradient(hsla(0,0%,94%,1) 0%, hsla(0,0%,98%,1) 33%, hsla(0,0%,98%,1) 42%, hsla(0,0%,92%,1) 100%);
+        background: -o-linear-gradient(hsla(0,0%,94%,1) 0%, hsla(0,0%,98%,1) 33%, hsla(0,0%,98%,1) 42%, hsla(0,0%,92%,1) 100%);
+        background: linear-gradient(hsla(0,0%,94%,1) 0%, hsla(0,0%,98%,1) 33%, hsla(0,0%,98%,1) 42%, hsla(0,0%,92%,1) 100%);
+      }
+      .container-fluid {
+          background: -webkit-linear-gradient(#515151 0%, #2D2D2D 100%);
+          background: -o-linear-gradient(#515151 0%, #2D2D2D 100%);
+          background: linear-gradient(#515151 0%, #2D2D2D 100%);
+      }
+      .container-fluid {
+          background: -webkit-linear-gradient(#515151 0%, #2D2D2D 100%);
+          background: -o-linear-gradient(#515151 0%, #2D2D2D 100%);
+          background: linear-gradient(#515151 0%, #2D2D2D 100%);
+      }
+    </style> <!-- /style-CSS-perso -->
+
+  </head>
+
+  <body>
+    <!-- nav-bar -->
+
+
+
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Selectionner :</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">SW ALLIED <br> AT8224XT<span class="sr-only">(current)</span></a></li>
+            <li><a href="index2.html">SW ALLIED <br> AT8624</a></li>
+            <li><a href="index3.html">Routeur ALLIED <br> RT750S</a></li>
+            <li><a href="index4.html">Routeur CISCO <br> 2811</a></li>
+          </ul>
+          <!-- <form class="navbar-form navbar-right" role="form">
+            <div class="input-group">
+              <input type="text" style="width:150px" class="input-sm form-control" placeholder="Recherche">
+              <span class="input-group-btn">
+                <button type="submit" class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-eye-open"></span> Chercher</button>
+              </span>
+            </div>
+          </form> -->
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav><!-- /nav-bar -->
+
+    <div class="container">
+      <div class="row">
+        <section class="col-sx-8">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h4 class="panel-title">Etapes de paramétrage SW ALLIED AT8224XT</h4>
+            </div>
+
+            <div class="bs-example" data-example-id="collapse-accordion">
+              <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingOne">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Mise en oeuvre initiale
+                        <span class="glyphicon glyphicon-chevron-right pull-right"></span>
+                      </a>
+                    </h4><!-- /panel-title -->
+                  </div><!-- /panel-heading -->
+                  <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                    <div class="panel-body">
+                      <span class="badge">1</span>
+                      Parametrage du nom machine :<br>
+                      <code>System Configuration ⏎</code><br>
+                      <code>System Name : <span class="code">Nom du switch</span></code>
+                    </div><!-- /panel-body -->
+                  </div><!-- /panel-collapse -->
+                </div><!-- /panel -->
+
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingTwo">
+                    <h4 class="panel-title">
+                      <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Parametrage des VLAN's
+                        <span class="glyphicon glyphicon-chevron-right pull-right"></span>
+                      </a>
+                    </h4><!-- /panel-title -->
+                  </div><!-- /panel-heading -->
+                  <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                    <div class="panel-body">
+                      <span class="badge">1</span>
+                      Creation du VLAN : <br>
+                      <code>Virtual LANs/QoS ⏎</code><br>
+                      <code>Virtual LAN definitions ⏎</code><br>
+                      <code>Add new table entry ⏎</code><br>
+                      <code>VLAN Name : <span class="code">Nom du VLAN</span></code><br>
+                      <code>ID : <span class="code">n° du VLAN (2...4094)</span></code><br>
+                      <code>All Ports On Vlan : <span class="code">n° des ports (ex: 2-4,12)</span></code><br>
+                    </div><!-- /panel-body -->
+                    <div class="panel-body">
+                      <span class="badge">2</span>
+                      Ajoutez un port sur un VLAN :<br>
+                      <code>Virtual LANs/QoS ⏎</code><br>
+                      <code>Port to VLAN configuration ⏎</code><br>
+                      Selectionnez un port et faire correspondre son VLAN <br>
+                      Aidez vous du clavier numérique pour selectionner un port plus rapidement
+                    </div><!-- /panel-body -->
+                    <div class="panel-body">
+                      <span class="badge">3</span>
+                      Ajoutez un port tagger sur un VLAN :<br>
+                      <code>Virtual LANs/QoS ⏎</code><br>
+                      <code>Virtual LAN definitions ⏎</code>Selectionnez un VLAN<br>
+                      <code>All Ports On Vlan : <span class="code">+ n° du port tagger </span></code>Rajoutez le n° du port à tagger<br>
+                      <code>Tagged Ports On Vlan : <span class="code">n° du port à tagger</span></code>Mettre le port à tagger<br>
+                    </div><!-- /panel-body -->
+                  </div><!-- /panel-collapse -->
+                </div><!-- /panel -->
+
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingThree">
+                    <h4 class="panel-title">
+                      <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Paramétrage d'un mirroring
+                        <span class="glyphicon glyphicon-chevron-right pull-right"></span>
+                      </a>
+                    </h4><!-- /panel-title -->
+                  </div><!-- /panel-heading -->
+                  <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                    <div class="panel-body">
+                      <span class="badge">1</span>
+                      Activer le mirroring : <br>
+                      <code>Traffic/Port Mirroring ⏎</code><br>
+                      <code>Enable</code>Selectionnez<br>
+                    </div><!-- /panel-body -->
+                    <div class="panel-body">
+                      <span class="badge">2</span>
+                      Attribuer les ports :<br>
+                      <code>Source port :</code>Saisir le port<br>
+                      <code>Destination port :</code>Saisir le port<br>
+                    </div><!-- /panel-body -->
+                  </div><!-- /panel-collapse -->
+                </div><!-- /panel -->
+
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingFour">
+                    <h4 class="panel-title">
+                      <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        Créez une @IP d'administration
+                        <span class="glyphicon glyphicon-chevron-right pull-right"></span>
+                      </a>
+                    </h4><!-- /panel-title -->
+                  </div><!-- /panel-heading -->
+                  <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                    <div class="panel-body">
+                      <span class="badge">1</span>
+                      Ajoutez une @IP : <br>
+                      <code>System Configuration ⏎</code><br>
+                      <code>IP Parameters ⏎</code><br>
+                      <code>Ip address : <span class="code">@IP </span></code><br>
+                      <code>Subnet mask : <span class="code">Mask </span></code><br>
+
+                    </div><!-- /panel-body -->
+                    <div class="panel-body">
+                      <span class="badge">2</span>
+                      Attribuer un VLAN à l' @IP d'administration :<br>
+                      <code>Virtual LANs/QoS ⏎</code><br>
+                      <code>Assign Management Port to VLAN ⏎</code><br>
+                      <code>Management Port Vlan : <span class="code">n° du VLAN d'administration </span></code><br>
+                    </div><!-- /panel-body -->
+                  </div><!-- /panel-collapse -->
+                </div><!-- /panel -->
+
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingFive">
+                    <h4 class="panel-title">
+                      <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        Sauvegarder la configuration ( automatique : rien à faire )
+                        <span class="glyphicon glyphicon-chevron-right pull-right"></span>
+                      </a>
+                    </h4><!-- /panel-title -->
+                  </div><!-- /panel-heading -->
+                  <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+                    <div class="panel-body">
+                      <span class="badge">1</span>
+                      Sur le 8224 la sauvegarde se fait automatiquement au fur et à mesure.
+                    </div><!-- /panel-body -->
+                  </div><!-- /panel-collapse -->
+                </div><!-- /panel -->
+                
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingSix">
+                    <h4 class="panel-title">
+                      <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                        Charger la configuration
+                        <span class="glyphicon glyphicon-chevron-right pull-right"></span>
+                      </a>
+                    </h4><!-- /panel-title -->
+                  </div><!-- /panel-heading -->
+                  <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
+                    <div class="panel-body">
+                      <span class="badge">1</span>
+                      Chargement en mode TFTP<br>
+                      <code>cd <span class="code">Se positionner dans le bon répertoire (ex: d:\)</span></code><br>
+                      <code>TFTP -i <span class="code">@ip serveur</span> GET <span class="code">Nom du fichier</span> ATS24</code>(ATS24)Mot de passe par defaut
+                    </div><!-- /panel-body -->
+                    <div class="panel-body">
+                      <span class="badge">1 bis</span>
+                      Chargement en mode FTP<br>
+                      <code>cd <span class="code">Se positionner dans le bon répertoire (ex: d:\)</span></code><br>
+                      <code>FTP open <span class="code">@ip serveur</span> GET <span class="code">Nom du fichier</span></code>
+                    </div><!-- /panel-body -->
+                  </div><!-- /panel-collapse -->
+                </div><!-- /panel -->
+
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingSeven">
+                    <h4 class="panel-title">
+                      <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                        Tranferer la configuration
+                        <span class="glyphicon glyphicon-chevron-right pull-right"></span>
+                      </a>
+                    </h4><!-- /panel-title -->
+                  </div><!-- /panel-heading -->
+                  <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeven">
+                    <div class="panel-body">
+                      <span class="badge">1</span>
+                      Transferer en mode TFTP<br>
+                      <code>cd <span class="code">Se positionner dans le bon répertoire (ex: d:\)</span></code><br>
+                      <code>TFTP -i <span class="code">@ip serveur</span> PUT <span class="code">Nom du fichier</span></code>
+                    </div><!-- /panel-body -->
+                  </div><!-- /panel-collapse -->
+                </div><!-- /panel -->
+
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingEight">
+                    <h4 class="panel-title">
+                      <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                        Faire un redémarrage en configuration usine
+                        <span class="glyphicon glyphicon-chevron-right pull-right"></span>
+                      </a>
+                    </h4><!-- /panel-title -->
+                  </div><!-- /panel-heading -->
+                  <div id="collapseEight" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingEight">
+                    <div class="panel-body">
+                      <span class="badge">1</span>
+                      Faire un redémarrage en configuration usine<br>
+                      <code>Administration ⏎</code><br>
+                      <code>   Reset and restart the system ⏎ <span class="code"> Yes</span></code><br>
+                      <code>Hit any key to run ...<span class="code"> Press any key</span></code>Presser une touche immediatement<br>
+                      <code><span class="code"> Press D</span></code>Appuyer sur la touche D pour un redémarrage en configuration usine<br>
+                      <code>WARNING: This will erase all current configuration data! Continue? Y/N <span class="code"> Press Y</span></code><br>
+                      <code>All configuration datz has been reset to factory default values.</code><br>
+                      <code><span class="code"> Press B</span></code>Appuyer sur la touche B pour rebooter<br>
+
+                    </div><!-- /panel-body -->
+                  </div><!-- /panel-collapse -->
+                </div><!-- /panel -->
+              </div><!-- /panel-group -->
+            </div><!-- /example -->
+          </div> <!-- .panel-primary -->
+        </section><!-- /section -->
+      </div><!-- /row --> 
+    </div> <!-- /container -->
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
