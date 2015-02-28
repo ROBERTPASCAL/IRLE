@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <title>Commande IRLE</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    
+
     <!-- style-CSS-perso -->
     <style type="text/css">
       span.code {
@@ -27,16 +27,16 @@
         background: linear-gradient(hsla(0,0%,94%,1) 0%, hsla(0,0%,98%,1) 33%, hsla(0,0%,98%,1) 42%, hsla(0,0%,92%,1) 100%);
       }
       .container-fluid {
-          background: -webkit-linear-gradient(#515151 0%, #2D2D2D 100%);
-          background: -o-linear-gradient(#515151 0%, #2D2D2D 100%);
-          background: linear-gradient(#515151 0%, #2D2D2D 100%);
+        background: -webkit-linear-gradient(#515151 0%, #2D2D2D 100%);
+        background: -o-linear-gradient(#515151 0%, #2D2D2D 100%);
+        background: linear-gradient(#515151 0%, #2D2D2D 100%);
       }
       .container-fluid {
-          background: -webkit-linear-gradient(#515151 0%, #2D2D2D 100%);
-          background: -o-linear-gradient(#515151 0%, #2D2D2D 100%);
-          background: linear-gradient(#515151 0%, #2D2D2D 100%);
+        background: -webkit-linear-gradient(#515151 0%, #2D2D2D 100%);
+        background: -o-linear-gradient(#515151 0%, #2D2D2D 100%);
+        background: linear-gradient(#515151 0%, #2D2D2D 100%);
       }
-    </style> <!-- /style-CSS-perso -->
+  </style> <!-- /style-CSS-perso -->
 
   </head>
 
@@ -45,27 +45,27 @@
 
 
 
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">Selectionner :</a>
-    </div>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Selectionner :</a>
+        </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li><a href="index.html">SW ALLIED <br> AT8224XT<span class="sr-only">(current)</span></a></li>
-        <li><a href="index2.html">SW ALLIED <br> AT8624</a></li>
-        <li class="active"><a href="index3.html">Routeur ALLIED <br> RT750S</a></li>
-        <li><a href="index4.html">Routeur CISCO <br> 2811</a></li>
-      </ul>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">SW ALLIED <br> AT8224XT<span class="sr-only">(current)</span></a></li>
+            <li><a href="index2.html">SW ALLIED <br> AT8624</a></li>
+            <li class="active"><a href="index3.html">Routeur ALLIED <br> RT750S</a></li>
+            <li><a href="index4.html">Routeur CISCO <br> 2811</a></li>
+          </ul>
       <!-- <form class="navbar-form navbar-right" role="form">
           <div class="input-group">
             <input type="text" style="width:150px" class="input-sm form-control" placeholder="Recherche">
@@ -74,142 +74,142 @@
             </span>
           </div>
         </form> -->
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav><!-- /nav-bar -->
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav><!-- /nav-bar -->
 
-    <div class="container">
-      <div class="row">
-        <section class="col-sx-8">
-          <div class="panel panel-primary">
-            <div class="panel-heading">
-              <h4 class="panel-title">Etapes de paramétrage RT ALLIED RT750S</h4>
-            </div>
+  <div class="container">
+    <div class="row">
+      <section class="col-sx-8">
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h4 class="panel-title">Etapes de paramétrage RT ALLIED RT750S</h4>
+          </div>
 
-            <div class="bs-example" data-example-id="collapse-accordion">
-              <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+          <div class="bs-example" data-example-id="collapse-accordion">
+            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
 
-                <div class="panel panel-default">
-                  <div class="panel-heading" role="tab" id="headingOne">
-                    <h4 class="panel-title">
-                      <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        Mise en oeuvre initiale
-                        <span class="glyphicon glyphicon-chevron-right pull-right"></span>
-                      </a>
-                    </h4><!-- /panel-title -->
-                  </div><!-- /panel-heading -->
-                  <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
-                    <div class="panel-body">
-                      <span class="badge">1</span>
-                      Parametrage du nom machine : <br>
-                      <code>SET SYStem NAMe=<span class="code">nom du routeur</span></code>
-                    </div><!-- /panel-body -->
-                    <div class="panel-body">
-                      <span class="badge">2</span>
-                      Chargement de la doc : <br>
-                      <code>SHow FILe=*.hlp</code>Pour afficher la liste des fichiers de type .hlp<br>
-                      <code>SET HELP=<span class="code">nom du fichier</span>.hlp</code>Pour charger le fichier
-                    </div><!-- /panel-body -->
-                  </div><!-- /panel-collapse -->
-                </div><!-- /panel -->
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingOne">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Mise en oeuvre initiale
+                      <span class="glyphicon glyphicon-chevron-right pull-right"></span>
+                    </a>
+                  </h4><!-- /panel-title -->
+                </div><!-- /panel-heading -->
+                <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                  <div class="panel-body">
+                    <span class="badge">1</span>
+                    Parametrage du nom machine : <br>
+                    <code>SET SYStem NAMe=<span class="code">nom du routeur</span></code>
+                  </div><!-- /panel-body -->
+                  <div class="panel-body">
+                    <span class="badge">2</span>
+                    Chargement de la doc : <br>
+                    <code>SHow FILe=*.hlp</code>Pour afficher la liste des fichiers de type .hlp<br>
+                    <code>SET HELP=<span class="code">nom du fichier</span>.hlp</code>Pour charger le fichier
+                  </div><!-- /panel-body -->
+                </div><!-- /panel-collapse -->
+              </div><!-- /panel -->
 
-                <div class="panel panel-default">
-                  <div class="panel-heading" role="tab" id="headingTwo">
-                    <h4 class="panel-title">
-                      <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        Parametrage des VLAN's pour le switch
-                        <span class="glyphicon glyphicon-chevron-right pull-right"></span>
-                      </a>
-                    </h4><!-- /panel-title -->
-                  </div><!-- /panel-heading -->
-                  <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-                    <div class="panel-body">
-                      <span class="badge">1</span>
-                      Creation du VLAN : <br>
-                      <code>CREate VLAN=<span class="code">nom du vlan</span> VID=<span class="code">n° du VLAN (2...4094)</span></code>
-                    </div><!-- /panel-body -->
-                    <div class="panel-body">
-                      <span class="badge">2</span>
-                      Ajouter un port sur un VLAN :<br>
-                      <code>ADD VLAN=<span class="code">n° du VLAN (2...4094)</span> POrt=<span class="code">n° des ports (ex: 2-3,5)</span></code><br>
-                    </div><!-- /panel-body -->
-                    <div class="panel-body">
-                      <span class="badge">3</span>
-                      Ajouter un port tagger sur un VLAN :<br>
-                      <code>SET VLAN=<span class="code">n° du VLAN (2...4094)</span> POrt=<span class="code">n° du port</span> FRAme=<span class="code">TAGged</span></code><br>
-                    </div><!-- /panel-body -->
-                  </div><!-- /panel-collapse -->
-                </div><!-- /panel -->
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingTwo">
+                  <h4 class="panel-title">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Parametrage des VLAN's pour le switch
+                      <span class="glyphicon glyphicon-chevron-right pull-right"></span>
+                    </a>
+                  </h4><!-- /panel-title -->
+                </div><!-- /panel-heading -->
+                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                  <div class="panel-body">
+                    <span class="badge">1</span>
+                    Creation du VLAN : <br>
+                    <code>CREate VLAN=<span class="code">nom du vlan</span> VID=<span class="code">n° du VLAN (2...4094)</span></code>
+                  </div><!-- /panel-body -->
+                  <div class="panel-body">
+                    <span class="badge">2</span>
+                    Ajouter un port sur un VLAN :<br>
+                    <code>ADD VLAN=<span class="code">n° du VLAN (2...4094)</span> POrt=<span class="code">n° des ports (ex: 2-3,5)</span></code><br>
+                  </div><!-- /panel-body -->
+                  <div class="panel-body">
+                    <span class="badge">3</span>
+                    Ajouter un port tagger sur un VLAN :<br>
+                    <code>SET VLAN=<span class="code">n° du VLAN (2...4094)</span> POrt=<span class="code">n° du port</span> FRAme=<span class="code">TAGged</span></code><br>
+                  </div><!-- /panel-body -->
+                </div><!-- /panel-collapse -->
+              </div><!-- /panel -->
 
-                <div class="panel panel-default">
-                  <div class="panel-heading" role="tab" id="headingThree">
-                    <h4 class="panel-title">
-                      <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        Attribuer une @IP à une interface
-                        <span class="glyphicon glyphicon-chevron-right pull-right"></span>
-                      </a>
-                    </h4><!-- /panel-title -->
-                  </div><!-- /panel-heading -->
-                  <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-                    <div class="panel-body">
-                      <span class="badge">1</span>
-                      Ajouter une @IP sans tag : <br>
-                      <code>ADD IP INTerface=<span class="code">eth0 ou eth1</span> IPaddress=<span class="code">@IP</span> MASK=<span class="code">mask en deci.</span></code><br>
-                      <code>ENAble IP</code>
-                    </div><!-- /panel-body -->
-                    <div class="panel-body">
-                      <span class="badge">1 bis</span>
-                      Ajouter une @IP avec tag : <br>
-                      <code>CREate VLAN=<span class="code">nom du vlan</span> VID=<span class="code">n° du VLAN (2...4094)</span></code><br>
-                      <code> ADD IP INTerface=<span class="code">eth0 ou eth1</span> IPaddress=<span class="code">@IP</span> MASK=<span class="code">mask</span> VLantag=<span class="code">n° du VLAN</span></code><br>
-                      <code>ENAble IP</code>
-                    </div><!-- /panel-body -->
-                  </div><!-- /panel-collapse -->
-                </div><!-- /panel -->
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingThree">
+                  <h4 class="panel-title">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Attribuer une @IP à une interface
+                      <span class="glyphicon glyphicon-chevron-right pull-right"></span>
+                    </a>
+                  </h4><!-- /panel-title -->
+                </div><!-- /panel-heading -->
+                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                  <div class="panel-body">
+                    <span class="badge">1</span>
+                    Ajouter une @IP sans tag : <br>
+                    <code>ADD IP INTerface=<span class="code">eth0 ou eth1</span> IPaddress=<span class="code">@IP</span> MASK=<span class="code">mask en deci.</span></code><br>
+                    <code>ENAble IP</code>
+                  </div><!-- /panel-body -->
+                  <div class="panel-body">
+                    <span class="badge">1 bis</span>
+                    Ajouter une @IP avec tag : <br>
+                    <code>CREate VLAN=<span class="code">nom du vlan</span> VID=<span class="code">n° du VLAN (2...4094)</span></code><br>
+                    <code> ADD IP INTerface=<span class="code">eth0 ou eth1</span> IPaddress=<span class="code">@IP</span> MASK=<span class="code">mask</span> VLantag=<span class="code">n° du VLAN</span></code><br>
+                    <code>ENAble IP</code>
+                  </div><!-- /panel-body -->
+                </div><!-- /panel-collapse -->
+              </div><!-- /panel -->
 
-                <div class="panel panel-default">
-                  <div class="panel-heading" role="tab" id="headingFour">
-                    <h4 class="panel-title">
-                      <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                        Ajouter une route statique
-                        <span class="glyphicon glyphicon-chevron-right pull-right"></span>
-                      </a>
-                    </h4><!-- /panel-title -->
-                  </div><!-- /panel-heading -->
-                  <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
-                    <div class="panel-body">
-                      <span class="badge">1</span>
-                      Ajouter une route : <br>
-                      <code>ADD IP ROUte=<span class="code">@RSO</span> MASK=<span class="code">mask</span> INTerface=<span class="code">eth0 ou eth1</span> NEXThop=<span class="code">@IP de la GW</span> METric=<span class="code">1..16</span></code>
-                    </div><!-- /panel-body -->
-                    <div class="panel-body">
-                      <span class="badge">1 bis</span>
-                      Ajouter une @IP avec tag : <br>
-                      <code>CREate VLAN=<span class="code">nom du vlan</span> VID=<span class="code">n° du VLAN (2...4094)</span></code><br>
-                      <code> ADD IP INTerface=<span class="code">eth0 ou eth1</span> IPaddress=<span class="code">@IP</span> MASK=<span class="code">mask</span> VLantag=<span class="code">n° du VLAN</span></code>
-                    </div><!-- /panel-body -->
-                  </div><!-- /panel-collapse -->
-                </div><!-- /panel -->
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingFour">
+                  <h4 class="panel-title">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                      Ajouter une route statique
+                      <span class="glyphicon glyphicon-chevron-right pull-right"></span>
+                    </a>
+                  </h4><!-- /panel-title -->
+                </div><!-- /panel-heading -->
+                <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                  <div class="panel-body">
+                    <span class="badge">1</span>
+                    Ajouter une route : <br>
+                    <code>ADD IP ROUte=<span class="code">@RSO</span> MASK=<span class="code">mask</span> INTerface=<span class="code">eth0 ou eth1</span> NEXThop=<span class="code">@IP de la GW</span> METric=<span class="code">1..16</span></code>
+                  </div><!-- /panel-body -->
+                  <div class="panel-body">
+                    <span class="badge">1 bis</span>
+                    Ajouter une @IP avec tag : <br>
+                    <code>CREate VLAN=<span class="code">nom du vlan</span> VID=<span class="code">n° du VLAN (2...4094)</span></code><br>
+                    <code> ADD IP INTerface=<span class="code">eth0 ou eth1</span> IPaddress=<span class="code">@IP</span> MASK=<span class="code">mask</span> VLantag=<span class="code">n° du VLAN</span></code>
+                  </div><!-- /panel-body -->
+                </div><!-- /panel-collapse -->
+              </div><!-- /panel -->
 
-                <div class="panel panel-default">
-                  <div class="panel-heading" role="tab" id="headingFive">
-                    <h4 class="panel-title">
-                      <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                        Sauvegarder la configuration
-                        <span class="glyphicon glyphicon-chevron-right pull-right"></span>
-                      </a>
-                    </h4><!-- /panel-title -->
-                  </div><!-- /panel-heading -->
-                  <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
-                    <div class="panel-body">
-                      <span class="badge">1</span>
-                      Créer le fichier de configuration :<br>
-                      <code>CREate CONfig=<span class="code">nom du fichier</span>.cfg SET</code>
-                    </div><!-- /panel-body -->
-                  </div><!-- /panel-collapse -->
-                </div><!-- /panel -->
-                
-                <div class="panel panel-default">
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingFive">
+                  <h4 class="panel-title">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                      Sauvegarder la configuration
+                      <span class="glyphicon glyphicon-chevron-right pull-right"></span>
+                    </a>
+                  </h4><!-- /panel-title -->
+                </div><!-- /panel-heading -->
+                <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+                  <div class="panel-body">
+                    <span class="badge">1</span>
+                    Créer le fichier de configuration :<br>
+                    <code>CREate CONfig=<span class="code">nom du fichier</span>.cfg SET</code>
+                  </div><!-- /panel-body -->
+                </div><!-- /panel-collapse -->
+              </div><!-- /panel -->
+
+              <div class="panel panel-default">
                 <div class="panel-heading" role="tab" id="headingSix">
                   <h4 class="panel-title">
                     <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
@@ -227,23 +227,23 @@
                 </div><!-- /panel-collapse -->
               </div><!-- /panel -->
 
-                <div class="panel panel-default">
-                  <div class="panel-heading" role="tab" id="headingSeven">
-                    <h4 class="panel-title">
-                      <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                        Transferer la configuration
-                        <span class="glyphicon glyphicon-chevron-right pull-right"></span>
-                      </a>
-                    </h4><!-- /panel-title -->
-                  </div><!-- /panel-heading -->
-                  <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeven">
-                    <div class="panel-body">
-                      <span class="badge">1</span>
-                      Tranfert en mode TFTP :<br>
-                      <code>UPLoad METhod=TFTP FIle=<span class="code">nom du fichier</span>.cfg SErver=<span class="code">@IP du serveur</span></code>
-                    </div><!-- /panel-body -->
-                  </div><!-- /panel-collapse -->
-                </div><!-- /panel -->
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingSeven">
+                  <h4 class="panel-title">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                      Transferer la configuration
+                      <span class="glyphicon glyphicon-chevron-right pull-right"></span>
+                    </a>
+                  </h4><!-- /panel-title -->
+                </div><!-- /panel-heading -->
+                <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeven">
+                  <div class="panel-body">
+                    <span class="badge">1</span>
+                    Tranfert en mode TFTP :<br>
+                    <code>UPLoad METhod=TFTP FIle=<span class="code">nom du fichier</span>.cfg SErver=<span class="code">@IP du serveur</span></code>
+                  </div><!-- /panel-body -->
+                </div><!-- /panel-collapse -->
+              </div><!-- /panel -->
 
               <div class="panel panel-default">
                 <div class="panel-heading" role="tab" id="headingEight">
@@ -265,11 +265,12 @@
                   </div><!-- /panel-body -->
                 </div><!-- /panel-collapse -->
               </div><!-- /panel -->
-
             </div><!-- /panel-group -->
           </div><!-- /example -->
-        </div><!-- /row --> 
-       </div> <!-- /container -->
+        </div><!-- /panel -->
+      </section><!-- /section -->
+    </div><!-- /row --> 
+  </div> <!-- /container -->
 
 
 
